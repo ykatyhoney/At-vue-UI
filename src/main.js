@@ -15,5 +15,5 @@ Vue.use(BootstrapVue);
 new Vue({
   router,
   el: '#app',
-  ...App
+  render: h => h(App)
 });
